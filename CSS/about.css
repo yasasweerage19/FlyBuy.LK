@@ -1,0 +1,66 @@
+.about-container{
+    background-color: rgb(182, 65, 65);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 20px;
+    margin-bottom: 20%;
+    display: flex;
+    margin-top: 10%;
+    flex-direction: row;
+}
+.left-about{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: white;
+    align-items: center;
+    
+}
+.right-about{
+    width: 50%;
+    height: 500px;
+     -webkit-transition:1s;
+    background-image: url('../images/about.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.right-about:hover{
+    background-image: url('../images/about1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-heading{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(212, 113, 113);
+}
+.about-logo{
+    width: 250px;
+    height: 250px;
+}
+.input{
+    padding: 10px 15px 10px 10px;
+    width: 500px;
+}
+.form-row{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.btn-send{
+    width: 100%;
+    margin-top: 30px;
+    height: 50px;
+}
+.width-100{
+    width: 100%;
+    align-items: flex-start;
+} 
+.wd-150{
+    height: 150px;
+}

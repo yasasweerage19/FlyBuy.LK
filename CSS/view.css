@@ -1,0 +1,65 @@
+table{
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: auto;
+    height: 500px;
+    background-color: white;
+    margin: 5% 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+h2{
+    color: white;
+}
+tr{
+    height: 40px;
+    border-bottom: 2px solid rgb(175, 57, 57);
+}
+th{
+    padding: 10px 15px;
+    margin: 0px;
+    color: rgb(175, 57, 57);
+    border-bottom:1px solid rgb(175, 57, 57);
+}
+td{
+    padding: 10px 15px;
+    text-align: center;border-bottom:1px solid rgb(77, 77, 77);
+}
+.top-row{
+    margin-top: 20PX;
+    margin-left: 20px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn-add{
+    background-color: black;
+    height:40px;
+    margin-top: 10px;
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    -webkit-animation-duration: 0.5s;
+}
+.btn-add:hover{
+    box-shadow: 2px 2px 6px rgb(219, 219, 219);
+}
+.btn-delete{
+    margin-left: 10px;
+    color: black;
+}
+.product-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.btn-check{
+    margin-right: 10px;
+    color: rgb(27, 148, 63);
+}
